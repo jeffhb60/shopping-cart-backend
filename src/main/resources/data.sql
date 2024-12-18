@@ -12,25 +12,25 @@ INSERT INTO category (category_name) VALUES ('TOYS');
 -- BOOKS (category_id = 1)
 -------------------------------------
 INSERT INTO product (sku, name, description, image_url, active, units_in_stock, unit_price, category_id, date_created)
-VALUES ('BOOK-TECH-1000', 'JavaScript - The Fun Parts', 'Learn JavaScript', 'assets/images/products/placeholder.png', TRUE, 100, 19.99, 1, NOW());
+VALUES ('BOOK-TECH-1000', 'JavaScript - The Fun Parts', 'Learn JavaScript', 'assets/images/products/placeholder.png', 1, 100, 19.99, 1, NOW());
 
 INSERT INTO product (sku, name, description, image_url, active, units_in_stock, unit_price, category_id, date_created)
-VALUES ('BOOK-TECH-1001', 'Spring Framework Tutorial', 'Learn Spring', 'assets/images/products/placeholder.png', TRUE, 100, 29.99, 1, NOW());
+VALUES ('BOOK-TECH-1001', 'Spring Framework Tutorial', 'Learn Spring', 'assets/images/products/placeholder.png', 1, 100, 29.99, 1, NOW());
 
 INSERT INTO product (sku, name, description, image_url, active, units_in_stock, unit_price, category_id, date_created)
-VALUES ('BOOK-TECH-1002', 'Kubernetes - Deploying Containers', 'Learn Kubernetes', 'assets/images/products/placeholder.png', TRUE, 100, 24.99, 1, NOW());
+VALUES ('BOOK-TECH-1002', 'Kubernetes - Deploying Containers', 'Learn Kubernetes', 'assets/images/products/placeholder.png', 1, 100, 24.99, 1, NOW());
 
 INSERT INTO product (sku, name, description, image_url, active, units_in_stock, unit_price, category_id, date_created)
-VALUES ('BOOK-TECH-1003', 'Internet of Things (IoT) - Getting Started', 'Learn IoT', 'assets/images/products/placeholder.png', TRUE, 100, 29.99, 1, NOW());
+VALUES ('BOOK-TECH-1003', 'Internet of Things (IoT) - Getting Started', 'Learn IoT', 'assets/images/products/placeholder.png', 1, 100, 29.99, 1, NOW());
 
 INSERT INTO product (sku, name, description, image_url, active, units_in_stock, unit_price, category_id, date_created)
-VALUES ('BOOK-TECH-1004', 'The Go Programming Language: A to Z', 'Learn Go', 'assets/images/products/placeholder.png', TRUE, 100, 24.99, 1, NOW());
+VALUES ('BOOK-TECH-1004', 'The Go Programming Language: A to Z', 'Learn Go', 'assets/images/products/placeholder.png', 1, 100, 24.99, 1, NOW());
 
 -------------------------------------
 -- ELECTRONICS (category_id = 2)
 -------------------------------------
 INSERT INTO product (sku, name, description, image_url, active, units_in_stock, unit_price, category_id, date_created)
-VALUES ('ELEC-1000', 'Wireless Earbuds', 'High-quality Bluetooth earbuds', 'assets/images/products/placeholder.png', TRUE, 50, 59.99, 2, NOW());
+VALUES ('ELEC-1000', 'Wireless Earbuds', 'High-quality Bluetooth earbuds', 'assets/images/products/placeholder.png', 1, 50, 59.99, 2, NOW());
 
 INSERT INTO product (sku, name, description, image_url, active, units_in_stock, unit_price, category_id, date_created)
 VALUES ('ELEC-1001', '4K UHD TV', 'Stunning display with HDR', 'assets/images/products/placeholder.png', TRUE, 20, 799.99, 2, NOW());
